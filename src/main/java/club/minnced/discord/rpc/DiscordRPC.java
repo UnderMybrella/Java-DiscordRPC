@@ -38,4 +38,7 @@ public interface DiscordRPC extends Library
 
     void Discord_UpdatePresence(DiscordRichPresence struct);
     void Discord_Respond(String userid, int reply);
+
+    void Discord_Register(String applicationId, String command);
+    void Discord_RegisterSteamGame(String applicationId, String steamId);
 }
